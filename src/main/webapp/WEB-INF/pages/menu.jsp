@@ -43,7 +43,7 @@
 <footer class="container">
   <div class="navbar fixed-bottom">
     <p></p>
-    <p>Dulea Mihai 2023</p>
+    <p>Ganea Victor Sebatian 2023</p>
     <p></p>
   </div>
 </footer>

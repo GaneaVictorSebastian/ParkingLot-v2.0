@@ -36,14 +36,14 @@ public class Car {
         this.parkingSpot = parkingSpot;
     }
 
-    private user owner;
+    private User owner;
 
     @ManyToOne
-    public user getOwner() {
+    public User getOwner() {
         return owner;
     }
 
-    public void setOwner(user owner) {
+    public void setOwner(User owner) {
         this.owner = owner;
     }
 }
