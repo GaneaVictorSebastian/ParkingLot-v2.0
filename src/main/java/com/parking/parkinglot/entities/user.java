@@ -10,6 +10,10 @@ public class user {
     private String email;
     private String password;
 
+    public user(Long id, String email, String username) {
+
+    }
+
     public String getEmail() {
         return email;
     }

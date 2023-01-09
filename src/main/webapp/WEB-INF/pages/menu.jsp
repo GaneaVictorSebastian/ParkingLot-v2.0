@@ -13,12 +13,20 @@
                aria-current="page" href="${pageContext.request.contextPath}/about.jsp">About
             </a>
           </li>
-          <li>
-
+          <li  class="nav-item">
             <a class="nav-link
               ${pageContext.request.requestURI.substring(pageContext.request.requestURI.lastIndexOf("/"))eq'/cars.jsp'?'active':''}"
                aria-current="page" href="${pageContext.request.contextPath}/Cars">Cars
             </a>
+          </li>
+          <li  class="nav-item">
+            <a class="nav-link
+              ${pageContext.request.requestURI.substring(pageContext.request.requestURI.lastIndexOf("/"))eq'/users.jsp'?'active':''}"
+               aria-current="page" href="${pageContext.request.contextPath}/Users">Users
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled">Disabled</a>
           </li>
         </ul>
 
@@ -35,7 +43,7 @@
 <footer class="container">
   <div class="navbar fixed-bottom">
     <p></p>
-    <p>Ganea Victor Sebastian 2023</p>
+    <p>Dulea Mihai 2023</p>
     <p></p>
   </div>
 </footer>
